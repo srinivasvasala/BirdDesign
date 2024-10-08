@@ -1,11 +1,7 @@
 package com.srinivas;
 
 public class ToyBird extends Bird{
-    public ToyBird(){
-        flyBehaviour = new flyNoWay();
-        eatBehaviour = new NotEat();
-        makeSoundBehaviour = new makeSound();
-    }
+    public ToyBird()
     @Override
     public void type() {
         System.out.println("I am toy bird");

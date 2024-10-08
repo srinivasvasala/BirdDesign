@@ -1,6 +1,6 @@
 package com.srinivas;
 
-public class flyNoWay implements FlyBehaviour {
+public class flyNoWay implements flyBehaviour{
 
     @Override
     public void fly() {

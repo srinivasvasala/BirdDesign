@@ -1,11 +1,9 @@
 package com.srinivas;
 
 public class Pigeon extends Bird {
-   public Pigeon(){
-    flyBehaviour = new flyWithWings();
-    eatBehaviour = new Eatable();
-    makeSoundBehaviour = new makeSound();
-    }
+public pigeon(){
+    
+}
 
     @Override
     public void type() {

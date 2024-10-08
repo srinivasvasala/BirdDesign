@@ -1,2 +1,5 @@
-package com.srinivas;public interface flyBehaviour {
+package com.srinivas;
+
+public interface FlyBehaviour {
+    public void fly();
 }

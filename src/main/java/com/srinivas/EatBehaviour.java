@@ -1,2 +1,5 @@
-package com.srinivas;public interface EatBehaviour {
+package com.srinivas;
+
+public interface EatBehaviour {
+    public void eat();
 }

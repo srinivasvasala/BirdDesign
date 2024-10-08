@@ -18,14 +18,14 @@ public abstract class Bird {
          makeSoundBehaviour.makeSound();
      }
 
-     public void setFlyBehaviour(FlyBehaviour fb) {
-         flyBehaviour = fb;
+     public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+         flyBehaviour = flyBehaviour;
      }
-     public void setEatBehaviour(EatBehaviour eb) {
-         eatBehaviour = eb;
+     public void setEatBehaviour() {
+         eatBehaviour= ;
      }
-     public void setMakeSoundBehaviour(MakeSoundBehaviour msb) {
-         makeSoundBehaviour = msb;
+     public void setMakeSoundBehaviour() {
+         makeSoundBehaviour.makeSound();
      }
 
 }

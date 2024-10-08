@@ -5,7 +5,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Bird pigeon = new Penguin();
+        Bird pigeon = new Pigeon();
         pigeon.type();
         pigeon.color();
         pigeon.weight();
@@ -13,7 +13,7 @@ public class App
         pigeon.performEat();
         pigeon.performMakeSound();
         pigeon.setEatBehaviour(new Eatable());
-        pigeon.setFlyBehaviour(new flyNoWay());
+        pigeon.setFlyBehaviour(new flyWithWings());
         pigeon.setMakeSoundBehaviour(new makeSound());
     }
 }
